@@ -1,0 +1,140 @@
+p {
+  font-family: IBM Plex Mono, Arial;
+  margin: 0;
+}
+
+body {
+  background-color: rgb(91, 94, 175);
+  padding-bottom: 1000px;
+}
+
+button {
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  line-height: 30px;
+  list-style-type: none;
+  font-size: larger;
+  font-family: IBM Plex Mono, Arial;
+  color: white;
+}
+
+a {
+  color: white;
+}
+
+a:hover{
+  color: red;
+}
+
+.header {
+  display: flex;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  margin: auto;
+  max-width: 800px;
+  color: white;
+  top: 30px;
+  justify-content: space-between;
+  height: 150px;
+ 
+}
+
+.header-left {
+  min-width: 450px;
+  padding-top: 30px;
+}
+
+.header-right {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+}
+
+/* resume page */
+
+.resume {
+  padding-top: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* horizontally center */
+  align-items: center;
+  min-height: 100vh; /* make the body at least the height of the viewport */
+} 
+
+.download-link {
+  margin-top: 30px;
+  font-family: IBM Plex Mono, Arial;
+  text-decoration: none;
+}
+
+/* portfolio page */
+.portfolio-cards {
+  padding-top: 30px;
+  display: grid;
+  margin: auto;
+  max-width: 800px;
+  grid-template-rows: 1fr 1fr 1fr;
+
+}
+
+.card {
+  height: 500px;
+  display: grid;
+  grid-template-rows: 50px 300px 1fr;
+}
+
+.card-picture {
+  text-align: center;
+  
+}
+
+.project-picture {
+  width: fit-content;
+  height: 300px;
+}
+
+.card-title {
+  font-size: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  font-weight: bold;
+}
+.card-description {
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 30px;
+}
+
+/* home page */
+
+.home-body {
+  padding-top: 30px;
+  margin: auto;
+  max-width: 800px;
+  display: grid;
+  grid-template-columns: 300px 1fr;
+}
+
+
+.home-picture {
+  width: 300px;
+  height: 300px;
+  border-width: 1px;
+  border-style: none;
+  border-radius: 150px;
+  object-fit: cover;
+  box-shadow: 0px 10px 5px rgba(0,0,0, 0.15)
+}
+
+.bio-text {
+  color: white;
+  padding-top: 50px;
+  padding-left: 30px;
+}
+
+
+
